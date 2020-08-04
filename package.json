@@ -1,0 +1,21 @@
+{
+  "name": "forecast-backend",
+  "version": "0.3.0",
+  "description": "",
+  "author": "roi",
+  "private": true,
+  "main": "node/index.js",
+  "scripts": {
+    "start": "node node/index",
+    "input": "node node/input",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "koa": "^2.12.0",
+    "koa-body": "^4.1.3",
+    "koa-router": "^9.0.1",
+    "koa-static": "^5.0.0",
+    "node-xlsx": "^0.15.0",
+    "redis-time-series-ts": "^1.2.3"
+  }
+}
